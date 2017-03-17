@@ -2,16 +2,19 @@ body {
 	background: tan;
 }
 
+img {
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+}
+
 header img.avatar {
+	border-radius: 50%;
 	max-width: 100px;
 }
 
 img.avatar {
 	margin: 5px;
-	border-radius: 50%;
-	border-width: 1px;
-	border-color: black;
-	border-style: solid;
 }
 
 header {
@@ -24,4 +27,28 @@ header {
 
 h4 {
 	margin-bottom: 2px;
+}
+
+div.image {
+	text-align: center;
+	font-family: Calibri;
+	font-size: 12px;
+}
+
+article {
+	margin: auto;
+	width: 600px;
+	font-family: "Arial";
+	background: rgba(255,255,255,0.5);
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+}
+
+article span.post-title {
+	font-size: 20px;
+	font-family: "Arial Black";
 }

@@ -28,13 +28,13 @@ header {
 	padding-left: 0px;
 }
 
-header li {
+#header-items li {
 	display: inline-block;
 	vertical-align: middle;
 	margin-left: 0px;
 }
 
-header ul {
+#header-items {
 	margin: auto;
 	margin-left: 0px;
 }

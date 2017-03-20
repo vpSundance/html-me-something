@@ -8,13 +8,11 @@ img {
 	border-style: solid;
 }
 
-header img.avatar {
-	border-radius: 50%;
-	max-width: 100px;
-}
-
 img.avatar {
 	margin: 5px;
+	border-radius: 50%;
+	vertical-align: middle;
+	margin-left: 0px;
 }
 
 header {
@@ -23,6 +21,22 @@ header {
 	border-style: solid;
 	border-color: black;
 	border-width: 1px;
+	color: tan;
+	font-size: 70px;
+	font-family: "Impact";
+	margin: 10px;
+	padding-left: 0px;
+}
+
+header li {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 0px;
+}
+
+header ul {
+	margin: auto;
+	margin-left: 0px;
 }
 
 h4 {
@@ -37,6 +51,7 @@ div.image {
 
 article {
 	margin: auto;
+	margin-top: 5px;
 	width: 600px;
 	font-family: "Arial";
 	background: rgba(255,255,255,0.5);
@@ -50,5 +65,5 @@ article {
 
 article span.post-title {
 	font-size: 20px;
-	font-family: "Arial Black";
+	font-family: "Impact";
 }

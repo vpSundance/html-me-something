@@ -22,8 +22,7 @@ header {
 	border-color: black;
 	border-width: 1px;
 	color: tan;
-	font-size: 70px;
-	font-family: "Impact";
+	font-family: "Georgia";
 	margin: 10px;
 	padding-left: 0px;
 }
@@ -32,6 +31,11 @@ header {
 	display: inline-block;
 	vertical-align: middle;
 	margin-left: 0px;
+}
+
+#header-title {
+	font-size: 70px;
+	margin-bottom: 0px;
 }
 
 #header-items {
@@ -65,7 +69,8 @@ article {
 
 article span.post-title {
 	font-size: 20px;
-	font-family: "Impact";
+	font-family: "Georgia";
+	font-weight: bold;
 }
 
 footer {
